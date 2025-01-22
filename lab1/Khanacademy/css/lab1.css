@@ -1,0 +1,260 @@
+/*1*/
+
+            body{
+                background: aqua;
+            }
+            
+            p{
+                color:black;
+            }
+            
+            h1{
+                color:red;
+            }
+
+
+/*2*/
+#summer {
+    color:red;
+} 
+
+#winter{
+    color:blue;
+}
+      
+
+/*3*/
+.apples{
+    color:red;
+}
+
+.bananas{
+    color:yellow;
+}
+
+
+/*4*/
+#flinstones {
+    font-family:sans-serif;
+}
+
+#jetsons {
+    font-family:serif;
+}
+
+#addams {
+    font-family:monospace;
+}
+
+body{
+    font-family:cursive;
+}
+
+
+/*5*/
+.big {
+    font-size: 50;
+}
+
+.bigger { 
+    font-size:100;
+}
+
+
+/*6*/
+.declaration { 
+    font-weight:bold;
+}
+
+.quote {
+    font-style:italic;
+}
+
+
+/*7*/
+.first-sentence{
+    font-weight:bold;
+}
+.info{
+    background-color:pink;
+}
+
+
+/*8*/
+.info {
+    background: rgb(219, 235, 255);
+    width: 70%;
+    height: 200px;
+    overflow:auto  ;
+}
+.pic{
+    width:70%;
+}
+
+
+/*9*/
+body {
+    font-family: cursive;
+}
+.photo-gallery {
+    background: rgb(255, 254, 217);
+    padding:10px;
+}
+.photo {
+    width: 200px;
+    border: 1px solid;
+    margin: 2px;
+}
+
+
+/*10*/
+#greeting {
+    background: rgb(255, 255, 0);
+    border: 2px solid black;
+    font-family: "Comic Sans MS", fantasy;
+    padding: 5px;
+    width: 262px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    z-index: 3px;
+}
+
+#creature {
+   position: absolute; 
+   top: 50px;
+   left: 50px;
+}
+
+
+/*11*/
+body {
+    font-family: sans-serif;
+}
+h1 {
+    font-family: fantasy;
+}
+#cloud-pic {
+    width: 100px;
+    float:left;
+    margin:5px;
+    
+    
+}
+#cloud-sidebar {
+    background: rgb(255, 255, 219);
+    float: right;
+    margin:5px;
+    width:49%;
+    margin:5px;
+}
+
+
+/*12*/
+#text{
+    font-size:22px;
+}
+
+body{
+    background-color:rgb(171, 235, 255);
+    font-family:monospace;
+}
+
+h1{
+    color:green;
+    font-family:serif;
+}
+
+
+/*13*/
+body {
+    font-family: cursive;
+}
+
+.image-big{
+    width:300px;
+}
+
+.image-small {
+    width: 150px;
+    border-radius: 4px;
+}
+.image-medium {
+    width: 200px;
+}
+.black-frame {
+    border: 8px double rgb(38, 38, 38);
+}
+.gold-frame {
+    border: 10px ridge rgb(255, 183, 0);
+}
+.silver-frame {
+    border: 10px groove rgb(204, 204, 204);
+}
+
+
+
+/*14*/
+.metal {
+    color: red;
+}
+.non-metal {
+    color: blue;
+}
+.semi-metal {
+    color: purple;
+}
+
+h2.metal{
+    background-color:red;
+    color:white;
+}
+
+h2.non-metal{
+    background-color:blue;
+    color:white;
+}
+
+h2.semi-metal{
+    background-color:purple;
+    color:white;
+}
+
+
+/*15*/
+.emperor {
+    font-family: cursive;
+}
+
+.reign {
+    font-family: monospace;
+}
+
+table .emperor{
+    background-color:yellow;
+}
+
+table .reign{
+    background-color:blue;
+}
+
+
+
+/*16*/
+p {
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 150px;
+}
+
+h1, h2 {
+    font-family: fantasy;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 3px;
+}
+
+h1:hover, h2:hover {
+    background-color: rgb(248, 255, 199);
+}
