@@ -1,0 +1,11 @@
+<nav class="navbar">
+  <ul class="nav-list">
+    <li><a [routerLink]="['/home']">Home</a></li>
+    <li><a [routerLink]="['/about']">About</a></li>
+    <li><a [routerLink]="['/albums']">Albums</a></li>
+    <li><a [routerLink]="['albums/:albumId/photos']">Album Photos</a></li>
+    <li><a [routerLink]="['albums/:postId']">Album Details</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
